@@ -56,7 +56,6 @@ class ViewController: UIViewController {
             okImage.image = UIImage(named: "no")//空字串不能用nil
         } else {
             okImage.image = UIImage(named: "ok")
-            name.text = ""
             
     //輸入正確 性別、血型 將會重置
             gender.selectedSegmentIndex = 0
@@ -74,14 +73,6 @@ class ViewController: UIViewController {
     }
     
     }
-    
-    
-    
-    
-    
-    
-    
-    
     
 
 }
