@@ -57,6 +57,10 @@ class ViewController: UIViewController {
         } else {
             okImage.image = UIImage(named: "ok")
             
+    //輸入正確 姓名欄 將會重置
+            name.text = ""
+            
+            
     //輸入正確 性別、血型 將會重置
             gender.selectedSegmentIndex = 0
             bloodType.selectedSegmentIndex = 0
