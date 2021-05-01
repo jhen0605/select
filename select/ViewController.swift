@@ -74,9 +74,8 @@ class ViewController: UIViewController {
         
         kgSlider.value = 0
         kgLabel.text = String(1)
-    }
+      }
     
     }
     
-
 }
